@@ -54,7 +54,11 @@ const AchievementSchema = new mongoose.Schema({
       default: 0
     },
     lastActiveDate: Date
-  }
+  },
+  loginDates: [{
+    type: String, // YYYY-MM-DD格式
+    default: []
+  }]
 }, {
   timestamps: true
 });

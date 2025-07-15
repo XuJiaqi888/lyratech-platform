@@ -5,52 +5,71 @@ import connectMongoDB from '../../../lib/mongodb';
 import Achievement, { ACHIEVEMENTS_CONFIG } from '../../../models/Achievement';
 import LearningPath from '../../../models/LearningPath';
 
-// 计算学习连续天数
-function calculateStreakDays(learningPath) {
-  if (!learningPath || !learningPath.updatedAt) {
+// 计算连续登录天数
+function calculateStreakDays(userAchievements) {
+  if (!userAchievements || !userAchievements.loginDates) {
     return 0;
   }
 
-  // 获取学习路径的所有活动记录
-  const activities = [];
-  
-  // 检查创建日期
-  if (learningPath.createdAt) {
-    activities.push(new Date(learningPath.createdAt));
-  }
-  
-  // 检查更新日期
-  if (learningPath.updatedAt) {
-    activities.push(new Date(learningPath.updatedAt));
-  }
-  
-  // 简化的连续天数计算逻辑
-  // 在实际应用中，这里应该基于用户的每日学习活动记录
-  const today = new Date();
-  const lastActivity = new Date(learningPath.updatedAt);
-  
-  // 计算最后活动与今天的天数差
-  const daysDiff = Math.floor((today - lastActivity) / (1000 * 60 * 60 * 24));
-  
-  // 如果用户有学习进度且最近有活动，计算连续天数
-  const totalCompleted = 
-    (learningPath.progress?.technicalSkills?.completed || 0) +
-    (learningPath.progress?.behavioralQuestions?.completed || 0) +
-    (learningPath.progress?.practicalProjects?.completed || 0);
-  
-  if (totalCompleted === 0) {
+  const loginDates = userAchievements.loginDates || [];
+  if (loginDates.length === 0) {
     return 0;
   }
+
+  // 去重并排序（最新在前）
+  const uniqueDates = [...new Set(loginDates)].sort((a, b) => new Date(b).getTime() - new Date(a).getTime());
   
-  // 简化的连续天数逻辑：基于完成的模块数量和最近活动
-  // 如果最后活动在今天或昨天，并且有学习进度
-  if (daysDiff <= 1) {
-    // 基于完成模块数量估算连续天数（每完成2个模块算1天）
-    const estimatedDays = Math.min(Math.floor(totalCompleted / 2) + 1, 30); // 最多30天
-    return estimatedDays;
+  const today = new Date();
+  const todayStr = today.toISOString().split('T')[0];
+  const yesterday = new Date(today);
+  yesterday.setDate(yesterday.getDate() - 1);
+  const yesterdayStr = yesterday.toISOString().split('T')[0];
+  
+  // 检查最近的登录日期是否是今天或昨天
+  const lastLoginDay = uniqueDates[0];
+  if (lastLoginDay !== todayStr && lastLoginDay !== yesterdayStr) {
+    return 0; // 如果最后登录不是今天或昨天，streak断了
   }
   
-  return 0;
+  // 计算连续天数
+  let streakDays = 0;
+  let currentDate = new Date(lastLoginDay);
+  
+  for (const dateStr of uniqueDates) {
+    const expectedDateStr = currentDate.toISOString().split('T')[0];
+    
+    if (dateStr === expectedDateStr) {
+      streakDays++;
+      currentDate.setDate(currentDate.getDate() - 1); // 往前推一天
+    } else {
+      break; // 不连续了，停止计算
+    }
+  }
+  
+  return streakDays;
+}
+
+// 记录用户今日登录
+function recordTodayLogin(userAchievements) {
+  const today = new Date();
+  const todayStr = today.toISOString().split('T')[0];
+  
+  if (!userAchievements.loginDates) {
+    userAchievements.loginDates = [];
+  }
+  
+  // 如果今天还没有记录，则添加
+  if (!userAchievements.loginDates.includes(todayStr)) {
+    userAchievements.loginDates.push(todayStr);
+    
+    // 只保留最近90天的登录记录，避免数组过大
+    userAchievements.loginDates = userAchievements.loginDates
+      .filter(dateStr => {
+        const date = new Date(dateStr);
+        const daysDiff = Math.floor((today - date) / (1000 * 60 * 60 * 24));
+        return daysDiff <= 90;
+      });
+  }
 }
 
 // 检查成就是否解锁
@@ -91,7 +110,7 @@ function checkAchievementUnlocked(achievementConfig, userStats) {
 }
 
 // 从学习路径数据计算统计信息
-function calculateStatsFromLearningPath(learningPath) {
+function calculateStatsFromLearningPath(learningPath, userAchievements) {
   if (!learningPath) {
     return {
       totalModulesCompleted: 0,
@@ -114,8 +133,8 @@ function calculateStatsFromLearningPath(learningPath) {
     (progress.behavioralQuestions?.completed || 0) +
     (progress.practicalProjects?.completed || 0);
 
-  // 使用真实的连续天数计算
-  const streakDays = calculateStreakDays(learningPath);
+  // 使用基于登录日期的连续天数计算
+  const streakDays = calculateStreakDays(userAchievements);
 
   return {
     totalModulesCompleted,
@@ -152,10 +171,6 @@ export async function GET(request) {
     const learningPath = await LearningPath.findOne({ userId });
     console.log('Learning path found:', learningPath ? 'Yes' : 'No');
     
-    // 从学习路径计算最新统计信息
-    const currentStats = calculateStatsFromLearningPath(learningPath);
-    console.log('Current stats:', currentStats);
-    
     // 查找或创建用户成就记录
     let userAchievements = await Achievement.findOne({ userId });
     
@@ -164,9 +179,18 @@ export async function GET(request) {
       userAchievements = new Achievement({
         userId: userId,
         unlockedAchievements: [],
-        stats: currentStats
+        stats: {},
+        loginDates: []
       });
     }
+    
+    // 记录今日登录
+    recordTodayLogin(userAchievements);
+    console.log('Login recorded for today');
+    
+    // 从学习路径计算最新统计信息
+    const currentStats = calculateStatsFromLearningPath(learningPath, userAchievements);
+    console.log('Current stats:', currentStats);
 
     // 每次都完全重新计算成就状态
     console.log('Recalculating all achievements...');

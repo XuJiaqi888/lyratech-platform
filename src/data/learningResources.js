@@ -8,9 +8,9 @@ export const LEARNING_RESOURCES = {
         { name: 'MDN JavaScript Guide', url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide', type: 'documentation' }
       ],
       video: [
-        { name: 'JavaScript Tutorial 2025 for Beginners', url: 'https://www.youtube.com/watch?v=ogdtB_m6G5g', type: 'youtube' },
-        { name: 'freeCodeCamp JavaScript Course', url: 'https://www.youtube.com/watch?v=PkZNo7MFNFg', type: 'youtube' },
-        { name: 'JavaScript Course for Beginners 2024', url: 'https://www.youtube.com/watch?v=Zi-Q0t4gMC8', type: 'youtube' }
+        { name: 'JavaScript Full Course for Beginners', url: 'https://www.youtube.com/watch?v=PkZNo7MFNFg', type: 'youtube' },
+        { name: 'JavaScript Tutorial for Beginners', url: 'https://www.youtube.com/watch?v=W6NZfCO5SIk', type: 'youtube' },
+        { name: 'Modern JavaScript ES6+ Tutorial', url: 'https://www.youtube.com/watch?v=NCwa_xi0Uuc', type: 'youtube' }
       ]
     },
     'React Basics': {
@@ -19,9 +19,9 @@ export const LEARNING_RESOURCES = {
         { name: 'W3Schools React Tutorial', url: 'https://www.w3schools.com/react/', type: 'tutorial' }
       ],
       video: [
-        { name: 'The Complete Guide to Modern React in 2025', url: 'https://www.youtube.com/watch?v=bHEdQWEtyKY', type: 'youtube' },
-        { name: 'Learn React JS - Full Beginner Tutorial', url: 'https://www.youtube.com/watch?v=x4rFhThSX04', type: 'youtube' },
-        { name: 'How To Learn React In 2024', url: 'https://www.youtube.com/watch?v=bBuaKlv56P0', type: 'youtube' }
+        { name: 'React Course for Beginners', url: 'https://www.youtube.com/watch?v=bMknfKXIFA8', type: 'youtube' },
+        { name: 'React JS Full Course', url: 'https://www.youtube.com/watch?v=DLX62G4lc44', type: 'youtube' },
+        { name: 'React Hooks Complete Tutorial', url: 'https://www.youtube.com/watch?v=O6P86uwfdR0', type: 'youtube' }
       ]
     },
     'Node.js Introduction': {
@@ -30,9 +30,9 @@ export const LEARNING_RESOURCES = {
         { name: 'W3Schools Node.js Tutorial', url: 'https://www.w3schools.com/nodejs/', type: 'tutorial' }
       ],
       video: [
-        { name: 'Node JS Tutorial For Beginners 2025', url: 'https://www.youtube.com/watch?v=yGl3f0xTl_0', type: 'youtube' },
-        { name: 'Node.js + TypeScript + MySQL Backend Tutorial', url: 'https://www.youtube.com/watch?v=TSi-643wvQg', type: 'youtube' },
-        { name: 'Node.js Crash Course', url: 'https://www.youtube.com/watch?v=fBNz5xF-Kx4', type: 'youtube' }
+        { name: 'Node.js Full Course for Beginners', url: 'https://www.youtube.com/watch?v=RLtyhwFtXQA', type: 'youtube' },
+        { name: 'Node.js Tutorial for Beginners', url: 'https://www.youtube.com/watch?v=fBNz5xF-Kx4', type: 'youtube' },
+        { name: 'Node.js Express Tutorial', url: 'https://www.youtube.com/watch?v=L72fhGm1tfE', type: 'youtube' }
       ]
     },
     'Database Design': {
@@ -41,9 +41,9 @@ export const LEARNING_RESOURCES = {
         { name: 'MySQL Official Documentation', url: 'https://dev.mysql.com/doc/', type: 'documentation' }
       ],
       video: [
-        { name: 'Database Design Fundamentals', url: 'https://www.youtube.com/watch?v=ztHopE5Wnpc', type: 'youtube' },
-        { name: 'Complete Database Design Course', url: 'https://www.youtube.com/watch?v=7S_tz1z_5bA', type: 'youtube' },
-        { name: 'SQL Tutorial for Beginners', url: 'https://www.youtube.com/watch?v=HXV3zeQKqGY', type: 'youtube' }
+        { name: 'SQL Tutorial - Full Database Course', url: 'https://www.youtube.com/watch?v=HXV3zeQKqGY', type: 'youtube' },
+        { name: 'Database Design Course', url: 'https://www.youtube.com/watch?v=ztHopE5Wnpc', type: 'youtube' },
+        { name: 'MySQL Complete Tutorial', url: 'https://www.youtube.com/watch?v=7S_tz1z_5bA', type: 'youtube' }
       ]
     },
     'API Development': {
@@ -52,9 +52,9 @@ export const LEARNING_RESOURCES = {
         { name: 'RESTful API Guide', url: 'https://restfulapi.net/', type: 'guide' }
       ],
       video: [
-        { name: 'REST API Crash Course', url: 'https://www.youtube.com/watch?v=VywxIQ2ZXw4', type: 'youtube' },
-        { name: 'API Development Tutorial', url: 'https://www.youtube.com/watch?v=pKd0Rpw7O48', type: 'youtube' },
-        { name: 'Building REST APIs with Node.js', url: 'https://www.youtube.com/watch?v=0oXYLzuucwE', type: 'youtube' }
+        { name: 'REST API Tutorial', url: 'https://www.youtube.com/watch?v=pKd0Rpw7O48', type: 'youtube' },
+        { name: 'Build a REST API with Node.js', url: 'https://www.youtube.com/watch?v=0oXYLzuucwE', type: 'youtube' },
+        { name: 'API Development with Express', url: 'https://www.youtube.com/watch?v=L8KQLDNY79s', type: 'youtube' }
       ]
     },
     'Testing Fundamentals': {
@@ -63,9 +63,9 @@ export const LEARNING_RESOURCES = {
         { name: 'MDN Testing Guide', url: 'https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing', type: 'guide' }
       ],
       video: [
-        { name: 'JavaScript Testing Crash Course', url: 'https://www.youtube.com/watch?v=r9HdJ8P6GQI', type: 'youtube' },
+        { name: 'JavaScript Testing Introduction', url: 'https://www.youtube.com/watch?v=r9HdJ8P6GQI', type: 'youtube' },
         { name: 'Unit Testing with Jest', url: 'https://www.youtube.com/watch?v=7r4xVDI2vho', type: 'youtube' },
-        { name: 'Testing JavaScript Applications', url: 'https://www.youtube.com/watch?v=MLTRHPYao2k', type: 'youtube' }
+        { name: 'Testing React Applications', url: 'https://www.youtube.com/watch?v=3e1GHYEO2dw', type: 'youtube' }
       ]
     },
     'Version Control (Git)': {
@@ -74,9 +74,9 @@ export const LEARNING_RESOURCES = {
         { name: 'GitHub Getting Started', url: 'https://docs.github.com/en/get-started', type: 'guide' }
       ],
       video: [
-        { name: 'Git and GitHub Crash Course', url: 'https://www.youtube.com/watch?v=RGOj5yH7evk', type: 'youtube' },
-        { name: 'Git Tutorial for Beginners', url: 'https://www.youtube.com/watch?v=SWYqp7iY_Tc', type: 'youtube' },
-        { name: 'Git and GitHub Complete Course', url: 'https://www.youtube.com/watch?v=apGV9Kg7ics', type: 'youtube' }
+        { name: 'Git and GitHub for Beginners', url: 'https://www.youtube.com/watch?v=RGOj5yH7evk', type: 'youtube' },
+        { name: 'Git Tutorial for Beginners', url: 'https://www.youtube.com/watch?v=8JJ101D3knE', type: 'youtube' },
+        { name: 'GitHub Tutorial', url: 'https://www.youtube.com/watch?v=0fKg7e37bQE', type: 'youtube' }
       ]
     },
     'Cloud Computing Basics': {
@@ -85,9 +85,9 @@ export const LEARNING_RESOURCES = {
         { name: 'Microsoft Azure Learn', url: 'https://docs.microsoft.com/en-us/learn/azure/', type: 'tutorial' }
       ],
       video: [
-        { name: 'AWS Fundamentals Course', url: 'https://www.youtube.com/watch?v=3hLmDS179YE', type: 'youtube' },
-        { name: 'Azure Fundamentals Complete Course', url: 'https://www.youtube.com/watch?v=NKEFWyqJ5XA', type: 'youtube' },
-        { name: 'Cloud Computing Explained', url: 'https://www.youtube.com/watch?v=M988_fsOSWo', type: 'youtube' }
+        { name: 'AWS Tutorial for Beginners', url: 'https://www.youtube.com/watch?v=3hLmDS179YE', type: 'youtube' },
+        { name: 'Azure Fundamentals Course', url: 'https://www.youtube.com/watch?v=NKEFWyqJ5XA', type: 'youtube' },
+        { name: 'Cloud Computing Full Course', url: 'https://www.youtube.com/watch?v=M988_fsOSWo', type: 'youtube' }
       ]
     },
     'Security Best Practices': {
@@ -96,9 +96,9 @@ export const LEARNING_RESOURCES = {
         { name: 'MDN Web Security', url: 'https://developer.mozilla.org/en-US/docs/Web/Security', type: 'documentation' }
       ],
       video: [
-        { name: 'Web Security Fundamentals', url: 'https://www.youtube.com/watch?v=VR_tKaHILUU', type: 'youtube' },
-        { name: 'Cybersecurity Basics', url: 'https://www.youtube.com/watch?v=inWWhr5tnEA', type: 'youtube' },
-        { name: 'Secure Coding Practices', url: 'https://www.youtube.com/watch?v=sdpxddDzXfE', type: 'youtube' }
+        { name: 'Web Security Tutorial', url: 'https://www.youtube.com/watch?v=VR_tKaHILUU', type: 'youtube' },
+        { name: 'Cybersecurity Full Course', url: 'https://www.youtube.com/watch?v=inWWhr5tnEA', type: 'youtube' },
+        { name: 'Secure Coding Practices', url: 'https://www.youtube.com/watch?v=F5KJVuii0Yw', type: 'youtube' }
       ]
     },
     'Performance Optimization': {
@@ -109,7 +109,7 @@ export const LEARNING_RESOURCES = {
       video: [
         { name: 'Web Performance Optimization', url: 'https://www.youtube.com/watch?v=_srJ7eHS3IM', type: 'youtube' },
         { name: 'JavaScript Performance Tips', url: 'https://www.youtube.com/watch?v=Wm_xI7KntDs', type: 'youtube' },
-        { name: 'Chrome DevTools Performance', url: 'https://www.youtube.com/watch?v=FUsHuDX6X0M', type: 'youtube' }
+        { name: 'Website Speed Optimization', url: 'https://www.youtube.com/watch?v=AQqFZ5t8uNc', type: 'youtube' }
       ]
     },
     'Data Structures': {
@@ -129,9 +129,9 @@ export const LEARNING_RESOURCES = {
         { name: 'Algorithm Visualizer', url: 'https://algorithm-visualizer.org/', type: 'tool' }
       ],
       video: [
-        { name: 'Algorithms Course - Graph Theory', url: 'https://www.youtube.com/watch?v=09_LlHjoEiY', type: 'youtube' },
+        { name: 'Algorithms Course', url: 'https://www.youtube.com/watch?v=09_LlHjoEiY', type: 'youtube' },
         { name: 'JavaScript Algorithms', url: 'https://www.youtube.com/watch?v=KEEKn7Me-ms', type: 'youtube' },
-        { name: 'Sorting Algorithms Explained', url: 'https://www.youtube.com/watch?v=kPRA0W1kECg', type: 'youtube' }
+        { name: 'Sorting Algorithms', url: 'https://www.youtube.com/watch?v=kPRA0W1kECg', type: 'youtube' }
       ]
     },
     'System Design': {
@@ -140,7 +140,7 @@ export const LEARNING_RESOURCES = {
         { name: 'System Design Primer', url: 'https://github.com/donnemartin/system-design-primer', type: 'github' }
       ],
       video: [
-        { name: 'System Design Interview', url: 'https://www.youtube.com/watch?v=bUHFg8CZFws', type: 'youtube' },
+        { name: 'System Design Course', url: 'https://www.youtube.com/watch?v=bUHFg8CZFws', type: 'youtube' },
         { name: 'System Design Fundamentals', url: 'https://www.youtube.com/watch?v=SqcXvc3ZmRU', type: 'youtube' },
         { name: 'Scalable System Design', url: 'https://www.youtube.com/watch?v=xpDnVSmNFX0', type: 'youtube' }
       ]
@@ -151,8 +151,8 @@ export const LEARNING_RESOURCES = {
         { name: 'Kubernetes Tutorials', url: 'https://kubernetes.io/docs/tutorials/', type: 'tutorial' }
       ],
       video: [
-        { name: 'DevOps Complete Course', url: 'https://www.youtube.com/watch?v=9pZ2xmsSDdo', type: 'youtube' },
-        { name: 'Docker Tutorial for Beginners', url: 'https://www.youtube.com/watch?v=pTFZFxd4hOI', type: 'youtube' },
+        { name: 'DevOps Tutorial for Beginners', url: 'https://www.youtube.com/watch?v=9pZ2xmsSDdo', type: 'youtube' },
+        { name: 'Docker Tutorial', url: 'https://www.youtube.com/watch?v=pTFZFxd4hOI', type: 'youtube' },
         { name: 'Kubernetes Tutorial', url: 'https://www.youtube.com/watch?v=X48VuDVv0do', type: 'youtube' }
       ]
     },
@@ -162,9 +162,9 @@ export const LEARNING_RESOURCES = {
         { name: 'Spring Boot Guides', url: 'https://spring.io/guides/gs/spring-boot/', type: 'tutorial' }
       ],
       video: [
-        { name: 'Microservices Architecture', url: 'https://www.youtube.com/watch?v=rv4LlmLmVWk', type: 'youtube' },
+        { name: 'Microservices Tutorial', url: 'https://www.youtube.com/watch?v=rv4LlmLmVWk', type: 'youtube' },
         { name: 'Building Microservices', url: 'https://www.youtube.com/watch?v=CdBtNQZH8a4', type: 'youtube' },
-        { name: 'Microservices with Node.js', url: 'https://www.youtube.com/watch?v=0cM1i8t5KsI', type: 'youtube' }
+        { name: 'Microservices with Node.js', url: 'https://www.youtube.com/watch?v=XUSHH0E-7zk', type: 'youtube' }
       ]
     },
     'Machine Learning Basics': {
@@ -174,8 +174,8 @@ export const LEARNING_RESOURCES = {
       ],
       video: [
         { name: 'Machine Learning Explained', url: 'https://www.youtube.com/watch?v=aircAruvnKk', type: 'youtube' },
-        { name: 'Python Machine Learning Course', url: 'https://www.youtube.com/watch?v=7eh4d6sabA0', type: 'youtube' },
-        { name: 'Neural Networks Fundamentals', url: 'https://www.youtube.com/watch?v=Z-0WjWwbBt8', type: 'youtube' }
+        { name: 'Python Machine Learning', url: 'https://www.youtube.com/watch?v=7eh4d6sabA0', type: 'youtube' },
+        { name: 'Machine Learning Course', url: 'https://www.youtube.com/watch?v=i_LwzRVP7bg', type: 'youtube' }
       ]
     },
     'Mobile App Development': {
@@ -184,9 +184,9 @@ export const LEARNING_RESOURCES = {
         { name: 'Flutter Get Started', url: 'https://docs.flutter.dev/get-started', type: 'tutorial' }
       ],
       video: [
-        { name: 'React Native Tutorial 2024', url: 'https://www.youtube.com/watch?v=ur6I5m2nTvk', type: 'youtube' },
-        { name: 'Flutter Complete Course', url: 'https://www.youtube.com/watch?v=1ukSR1GRtMU', type: 'youtube' },
-        { name: 'Mobile App UI Design', url: 'https://www.youtube.com/watch?v=JL3QW6CkdMw', type: 'youtube' }
+        { name: 'React Native App Tutorial', url: 'https://www.youtube.com/watch?v=ur6I5m2nTvk', type: 'youtube' },
+        { name: 'Flutter Tutorial for Beginners', url: 'https://www.youtube.com/watch?v=1ukSR1GRtMU', type: 'youtube' },
+        { name: 'Mobile App Development', url: 'https://www.youtube.com/watch?v=VPvVD8t02Z8', type: 'youtube' }
       ]
     },
     'Frontend Frameworks': {
@@ -195,8 +195,8 @@ export const LEARNING_RESOURCES = {
         { name: 'Angular Tutorial', url: 'https://angular.io/tutorial', type: 'tutorial' }
       ],
       video: [
-        { name: 'Vue.js Complete Course', url: 'https://www.youtube.com/watch?v=4deVCNJq3qc', type: 'youtube' },
-        { name: 'Angular Crash Course', url: 'https://www.youtube.com/watch?v=k5E2AVpwsko', type: 'youtube' },
+        { name: 'Vue.js Course for Beginners', url: 'https://www.youtube.com/watch?v=4deVCNJq3qc', type: 'youtube' },
+        { name: 'Angular Tutorial for Beginners', url: 'https://www.youtube.com/watch?v=k5E2AVpwsko', type: 'youtube' },
         { name: 'Frontend Frameworks Comparison', url: 'https://www.youtube.com/watch?v=cuHDQhDhvPE', type: 'youtube' }
       ]
     },
@@ -206,9 +206,9 @@ export const LEARNING_RESOURCES = {
         { name: 'Clean Architecture', url: 'https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html', type: 'article' }
       ],
       video: [
-        { name: 'Backend Development Guide', url: 'https://www.youtube.com/watch?v=XBu54nfzxAQ', type: 'youtube' },
+        { name: 'Backend Development Tutorial', url: 'https://www.youtube.com/watch?v=XBu54nfzxAQ', type: 'youtube' },
         { name: 'Clean Architecture Explained', url: 'https://www.youtube.com/watch?v=DJtef410XaM', type: 'youtube' },
-        { name: 'Scalable Backend Systems', url: 'https://www.youtube.com/watch?v=dmxzfCT7GRE', type: 'youtube' }
+        { name: 'Scalable Backend Architecture', url: 'https://www.youtube.com/watch?v=dmxzfCT7GRE', type: 'youtube' }
       ]
     },
     'Project Management Tools': {
@@ -218,8 +218,8 @@ export const LEARNING_RESOURCES = {
       ],
       video: [
         { name: 'Agile Project Management', url: 'https://www.youtube.com/watch?v=502ILHjX9EE', type: 'youtube' },
-        { name: 'Scrum Methodology Explained', url: 'https://www.youtube.com/watch?v=9TycLR0TqFA', type: 'youtube' },
-        { name: 'Project Management Fundamentals', url: 'https://www.youtube.com/watch?v=wN6xVCgWE1s', type: 'youtube' }
+        { name: 'Scrum Tutorial', url: 'https://www.youtube.com/watch?v=9TycLR0TqFA', type: 'youtube' },
+        { name: 'Project Management Fundamentals', url: 'https://www.youtube.com/watch?v=ZKOL-rZ79gs', type: 'youtube' }
       ]
     }
   },
@@ -231,9 +231,9 @@ export const LEARNING_RESOURCES = {
         { name: 'MindTools Leadership', url: 'https://www.mindtools.com/pages/main/newMN_LDR.htm', type: 'guide' }
       ],
       video: [
-        { name: 'Leadership Skills Training', url: 'https://www.youtube.com/watch?v=JnFutFgLWj8', type: 'youtube' },
-        { name: 'Effective Leadership Techniques', url: 'https://www.youtube.com/watch?v=xlUDQq5hiii', type: 'youtube' },
-        { name: 'Leadership Development Course', url: 'https://www.youtube.com/watch?v=8aApBJMF8NU', type: 'youtube' }
+        { name: 'What it takes to be a great leader | TED', url: 'https://www.youtube.com/watch?v=aUYSDEYdmzw', type: 'youtube' },
+        { name: 'Great leadership starts with self-leadership | TEDx', url: 'https://www.youtube.com/watch?v=vlpKyLklDDY', type: 'youtube' },
+        { name: 'Everyday leadership | Drew Dudley | TED', url: 'https://www.youtube.com/watch?v=uAy6EawKKME', type: 'youtube' }
       ]
     },
     'Team Collaboration': {
@@ -242,9 +242,8 @@ export const LEARNING_RESOURCES = {
         { name: 'Atlassian Team Playbook', url: 'https://www.atlassian.com/team-playbook', type: 'playbook' }
       ],
       video: [
-        { name: 'Effective Team Communication', url: 'https://www.youtube.com/watch?v=K0YdclzUUxM', type: 'youtube' },
-        { name: 'Building High-Performance Teams', url: 'https://www.youtube.com/watch?v=qJXM0YaiUyI', type: 'youtube' },
-        { name: 'Remote Team Collaboration', url: 'https://www.youtube.com/watch?v=f4Qu9DyL3CE', type: 'youtube' }
+        { name: 'The power of vulnerability | Brené Brown | TED', url: 'https://www.youtube.com/watch?v=iCvmsMzlF7o', type: 'youtube' },
+        { name: 'Google: How to build perfect team | TEDx', url: 'https://www.youtube.com/watch?v=hHIikHJV9fI', type: 'youtube' }
       ]
     },
     'Problem Solving': {
@@ -253,9 +252,8 @@ export const LEARNING_RESOURCES = {
         { name: 'MIT Problem Solving', url: 'https://web.mit.edu/~mi22295/www/problemsolving.html', type: 'article' }
       ],
       video: [
-        { name: 'Creative Problem Solving', url: 'https://www.youtube.com/watch?v=AXf-g3-6kPw', type: 'youtube' },
-        { name: 'Problem Solving Techniques', url: 'https://www.youtube.com/watch?v=LZp29Qeu8_U', type: 'youtube' },
-        { name: 'Critical Thinking Skills', url: 'https://www.youtube.com/watch?v=6OLPL5p0fMg', type: 'youtube' }
+        { name: 'How to solve problems like a designer | TED-Ed', url: 'https://www.youtube.com/watch?v=_r0VX-aU_T8', type: 'youtube' },
+        { name: 'Critical Thinking | TED-Ed', url: 'https://www.youtube.com/watch?v=dItUGF8GdTw', type: 'youtube' }
       ]
     },
     'Communication Skills': {
@@ -264,9 +262,9 @@ export const LEARNING_RESOURCES = {
         { name: 'Coursera Communication Specialization', url: 'https://www.coursera.org/specializations/improve-business-communication', type: 'course' }
       ],
       video: [
-        { name: 'Communication Skills Training', url: 'https://www.youtube.com/watch?v=K0YdclzUUxM', type: 'youtube' },
-        { name: 'Public Speaking Mastery', url: 'https://www.youtube.com/watch?v=H6qzkAQccGs', type: 'youtube' },
-        { name: 'Professional Communication', url: 'https://www.youtube.com/watch?v=3KvUlmJAMjU', type: 'youtube' }
+        { name: 'How to speak so that people want to listen | TED', url: 'https://www.youtube.com/watch?v=eIho2S0ZahI', type: 'youtube' },
+        { name: 'The art of effective communication | TEDx', url: 'https://www.youtube.com/watch?v=HAnw168huqA', type: 'youtube' },
+        { name: 'Your body language may shape who you are | TED', url: 'https://www.youtube.com/watch?v=Ks-_Mh1QhMc', type: 'youtube' }
       ]
     },
     'Conflict Resolution': {
@@ -275,9 +273,9 @@ export const LEARNING_RESOURCES = {
         { name: 'MindTools Conflict Resolution', url: 'https://www.mindtools.com/pages/main/newMN_TCS.htm', type: 'guide' }
       ],
       video: [
-        { name: 'Conflict Resolution Skills', url: 'https://www.youtube.com/watch?v=UECy8LLLHgU', type: 'youtube' },
-        { name: 'Crucial Conversations', url: 'https://www.youtube.com/watch?v=u1u9Pf7MbOY', type: 'youtube' },
-        { name: 'Workplace Conflict Management', url: 'https://www.youtube.com/watch?v=5E8e4yNITxQ', type: 'youtube' }
+        { name: 'Getting to yes in difficult situations | TED', url: 'https://www.youtube.com/watch?v=kxlSuW9wpEQ', type: 'youtube' },
+        { name: 'How to deal with difficult people | TEDx', url: 'https://www.youtube.com/watch?v=hF_8ISN5vZI', type: 'youtube' },
+        { name: 'The art of negotiation | Harvard Business School', url: 'https://www.youtube.com/watch?v=guOljrn2w_o', type: 'youtube' }
       ]
     },
     'Time Management': {
@@ -286,9 +284,9 @@ export const LEARNING_RESOURCES = {
         { name: 'Pomodoro Technique', url: 'https://francescocirillo.com/pages/pomodoro-technique', type: 'technique' }
       ],
       video: [
-        { name: 'Time Management Strategies', url: 'https://www.youtube.com/watch?v=iONDebHX9qk', type: 'youtube' },
-        { name: 'Productivity Tips and Tricks', url: 'https://www.youtube.com/watch?v=C9wvSI6-8tY', type: 'youtube' },
-        { name: 'Work-Life Balance Guide', url: 'https://www.youtube.com/watch?v=jwTl9lJfYEs', type: 'youtube' }
+        { name: 'How to manage your time effectively | TED-Ed', url: 'https://www.youtube.com/watch?v=iDbdXTMnOmE', type: 'youtube' },
+        { name: 'Inside the mind of a master procrastinator | TED', url: 'https://www.youtube.com/watch?v=arj7oStGLkU', type: 'youtube' },
+        { name: 'The art of stress-free productivity | TEDx', url: 'https://www.youtube.com/watch?v=CHxhjDPKfbY', type: 'youtube' }
       ]
     },
     'Adaptability': {
@@ -297,9 +295,9 @@ export const LEARNING_RESOURCES = {
         { name: 'Harvard Adaptability Research', url: 'https://hbr.org/topic/adaptability', type: 'articles' }
       ],
       video: [
-        { name: 'Building Resilience', url: 'https://www.youtube.com/watch?v=NWH8N-BvhAw', type: 'youtube' },
-        { name: 'Adapting to Change', url: 'https://www.youtube.com/watch?v=WiExXZZxO1M', type: 'youtube' },
-        { name: 'Growth Mindset Development', url: 'https://www.youtube.com/watch?v=KUWn_TJTrnU', type: 'youtube' }
+        { name: 'The power of believing that you can improve | TED', url: 'https://www.youtube.com/watch?v=_X0mgOOSpLU', type: 'youtube' },
+        { name: 'Grit: the power of passion and perseverance | TED', url: 'https://www.youtube.com/watch?v=H14bBuluwB8', type: 'youtube' },
+        { name: 'The puzzle of motivation | TED', url: 'https://www.youtube.com/watch?v=rrkrvAUbU9Y', type: 'youtube' }
       ]
     },
     'Decision Making': {
@@ -308,9 +306,9 @@ export const LEARNING_RESOURCES = {
         { name: 'Behavioral Economics', url: 'https://www.behavioraleconomics.com/', type: 'resource' }
       ],
       video: [
-        { name: 'Decision Making Psychology', url: 'https://www.youtube.com/watch?v=oDKDavhuwf8', type: 'youtube' },
-        { name: 'Strategic Decision Making', url: 'https://www.youtube.com/watch?v=8ZNTxIZE7kA', type: 'youtube' },
-        { name: 'Critical Thinking for Decisions', url: 'https://www.youtube.com/watch?v=6OLPL5p0fMg', type: 'youtube' }
+        { name: 'How to make better decisions | TED-Ed', url: 'https://www.youtube.com/watch?v=BrK7X_XlGB8', type: 'youtube' },
+        { name: 'Your brain on future | TEDx', url: 'https://www.youtube.com/watch?v=LWULB9Aoopc', type: 'youtube' },
+        { name: 'The paradox of choice | TED', url: 'https://www.youtube.com/watch?v=VO6XEQIsCoM', type: 'youtube' }
       ]
     },
     'Customer Focus': {
@@ -319,9 +317,9 @@ export const LEARNING_RESOURCES = {
         { name: 'Salesforce Customer Journey', url: 'https://www.salesforce.com/resources/articles/customer-journey/', type: 'article' }
       ],
       video: [
-        { name: 'Customer Experience Strategy', url: 'https://www.youtube.com/watch?v=qZdwmOQl0e8', type: 'youtube' },
-        { name: 'Customer Service Excellence', url: 'https://www.youtube.com/watch?v=0k3MaM2IvFE', type: 'youtube' },
-        { name: 'User-Centered Design', url: 'https://www.youtube.com/watch?v=HXsq1GGASl8', type: 'youtube' }
+        { name: 'The customer experience revolution | TEDx', url: 'https://www.youtube.com/watch?v=pKrKekl_VqM', type: 'youtube' },
+        { name: 'Design thinking process | IDEO', url: 'https://www.youtube.com/watch?v=_r0VX-aU_T8', type: 'youtube' },
+        { name: 'Customer empathy mapping | Stanford d.school', url: 'https://www.youtube.com/watch?v=QwF9a56WFWA', type: 'youtube' }
       ]
     },
     'Innovation Thinking': {
@@ -330,9 +328,9 @@ export const LEARNING_RESOURCES = {
         { name: 'MIT Innovation', url: 'https://web.mit.edu/innovation/', type: 'resource' }
       ],
       video: [
-        { name: 'Creative Thinking Techniques', url: 'https://www.youtube.com/watch?v=bEusrD8g-dM', type: 'youtube' },
-        { name: 'Innovation Strategies', url: 'https://www.youtube.com/watch?v=iG9CE55wbtY', type: 'youtube' },
-        { name: 'Design Thinking Process', url: 'https://www.youtube.com/watch?v=_r0VX-aU_T8', type: 'youtube' }
+        { name: 'Where do good ideas come from | TED', url: 'https://www.youtube.com/watch?v=NugRZGDbPFU', type: 'youtube' },
+        { name: 'The surprising habit of original thinkers | TED', url: 'https://www.youtube.com/watch?v=fxbCHn6gE3U', type: 'youtube' },
+        { name: 'How to build your creative confidence | TED', url: 'https://www.youtube.com/watch?v=16p9YRF0l-g', type: 'youtube' }
       ]
     },
     'Stress Management': {
@@ -341,9 +339,9 @@ export const LEARNING_RESOURCES = {
         { name: 'Mayo Clinic Stress Management', url: 'https://www.mayoclinic.org/healthy-lifestyle/stress-management', type: 'medical' }
       ],
       video: [
-        { name: 'Stress Management Techniques', url: 'https://www.youtube.com/watch?v=hnpQrMqDoqE', type: 'youtube' },
-        { name: 'Mindfulness and Meditation', url: 'https://www.youtube.com/watch?v=thcEuMDWxoI', type: 'youtube' },
-        { name: 'Work Stress Solutions', url: 'https://www.youtube.com/watch?v=Nw5jJUXCW2Y', type: 'youtube' }
+        { name: 'How to make stress your friend | TED', url: 'https://www.youtube.com/watch?v=RcGyVTAoXEU', type: 'youtube' },
+        { name: 'All it takes is 10 mindful minutes | TED', url: 'https://www.youtube.com/watch?v=qzR62JJCMBQ', type: 'youtube' },
+        { name: 'Why we have too little time | TED', url: 'https://www.youtube.com/watch?v=n3kNlFMXslo', type: 'youtube' }
       ]
     },
     'Goal Setting': {
@@ -352,9 +350,9 @@ export const LEARNING_RESOURCES = {
         { name: 'OKRs Guide', url: 'https://www.whatmatters.com/faqs/okr-meaning-definition-example/', type: 'methodology' }
       ],
       video: [
-        { name: 'How to Set Goals', url: 'https://www.youtube.com/watch?v=XpKDDNOXk28', type: 'youtube' },
-        { name: 'Goal Setting Psychology', url: 'https://www.youtube.com/watch?v=2Ol-u9bT2u4', type: 'youtube' },
-        { name: 'Achievement Motivation', url: 'https://www.youtube.com/watch?v=vWveEr7nTz0', type: 'youtube' }
+        { name: 'The power of goal setting | TEDx', url: 'https://www.youtube.com/watch?v=L4N1q4RNi9I', type: 'youtube' },
+        { name: 'Keep your goals to yourself | TED', url: 'https://www.youtube.com/watch?v=NHopJHSlVo4', type: 'youtube' },
+        { name: 'How to set goals that motivate you | TED-Ed', url: 'https://www.youtube.com/watch?v=MZFaNuYAhxw', type: 'youtube' }
       ]
     },
     'Feedback Reception': {
@@ -363,9 +361,9 @@ export const LEARNING_RESOURCES = {
         { name: 'Growth Mindset', url: 'https://www.mindsetworks.com/science/', type: 'research' }
       ],
       video: [
-        { name: 'Receiving Feedback Effectively', url: 'https://www.youtube.com/watch?v=HW_M0SvIBbM', type: 'youtube' },
-        { name: 'Constructive Feedback Skills', url: 'https://www.youtube.com/watch?v=YBIDLJxnwbE', type: 'youtube' },
-        { name: 'Growth Mindset Development', url: 'https://www.youtube.com/watch?v=KUWn_TJTrnU', type: 'youtube' }
+        { name: 'How to receive feedback | Harvard Business Review', url: 'https://www.youtube.com/watch?v=FQNbaKkYk_Q', type: 'youtube' },
+        { name: 'The power of believing that you can improve | TED', url: 'https://www.youtube.com/watch?v=_X0mgOOSpLU', type: 'youtube' },
+        { name: 'Why feedback rarely does what it is meant to | TEDx', url: 'https://www.youtube.com/watch?v=oUpw2dQdFaE', type: 'youtube' }
       ]
     },
     'Cultural Awareness': {
@@ -374,9 +372,9 @@ export const LEARNING_RESOURCES = {
         { name: 'Hofstede Insights', url: 'https://www.hofstede-insights.com/', type: 'framework' }
       ],
       video: [
-        { name: 'Cross-Cultural Communication', url: 'https://www.youtube.com/watch?v=PMZWqNWo0Cs', type: 'youtube' },
-        { name: 'Cultural Intelligence Skills', url: 'https://www.youtube.com/watch?v=68oV_TCFgGg', type: 'youtube' },
-        { name: 'Diversity and Inclusion', url: 'https://www.youtube.com/watch?v=4OqJcELNJIs', type: 'youtube' }
+        { name: 'The danger of a single story | TED', url: 'https://www.youtube.com/watch?v=D9Ihs241zeg', type: 'youtube' },
+        { name: 'Cross-cultural communication | TEDx', url: 'https://www.youtube.com/watch?v=YMyofREc5Jk', type: 'youtube' },
+        { name: 'How to overcome our biases | TED', url: 'https://www.youtube.com/watch?v=uYyvbgINZkQ', type: 'youtube' }
       ]
     },
     'Ethical Dilemmas': {
@@ -385,9 +383,9 @@ export const LEARNING_RESOURCES = {
         { name: 'Stanford Ethics Resources', url: 'https://ethics.stanford.edu/', type: 'academic' }
       ],
       video: [
-        { name: 'Technology Ethics', url: 'https://www.youtube.com/watch?v=jG_u7BqOhfY', type: 'youtube' },
-        { name: 'Business Ethics Fundamentals', url: 'https://www.youtube.com/watch?v=1c_1Gvr9XVY', type: 'youtube' },
-        { name: 'Ethical Decision Making', url: 'https://www.youtube.com/watch?v=4OqJcELNJIs', type: 'youtube' }
+        { name: 'Ethics in technology design | TED', url: 'https://www.youtube.com/watch?v=WV_pQCjVBf4', type: 'youtube' },
+        { name: 'How to make ethical decisions | TED-Ed', url: 'https://www.youtube.com/watch?v=kBdfcR-8hEY', type: 'youtube' },
+        { name: 'The moral roots of liberals and conservatives | TED', url: 'https://www.youtube.com/watch?v=8SOQduoLgRw', type: 'youtube' }
       ]
     }
   },
@@ -399,8 +397,8 @@ export const LEARNING_RESOURCES = {
         { name: 'GitHub Pages', url: 'https://pages.github.com/', type: 'hosting' }
       ],
       video: [
-        { name: 'Portfolio Website Tutorial 2024', url: 'https://www.youtube.com/watch?v=xV7S8BhIeBo', type: 'youtube' },
-        { name: 'React Portfolio Build', url: 'https://www.youtube.com/watch?v=r_hYR53r61M', type: 'youtube' },
+        { name: 'Build a Portfolio Website', url: 'https://www.youtube.com/watch?v=xV7S8BhIeBo', type: 'youtube' },
+        { name: 'React Portfolio Tutorial', url: 'https://www.youtube.com/watch?v=r_hYR53r61M', type: 'youtube' },
         { name: 'Modern Portfolio Design', url: 'https://www.youtube.com/watch?v=ldwlOzRvYOU', type: 'youtube' }
       ]
     },
@@ -410,9 +408,9 @@ export const LEARNING_RESOURCES = {
         { name: 'Vue.js Task App', url: 'https://vuejs.org/tutorial/', type: 'tutorial' }
       ],
       video: [
-        { name: 'React Task Manager Build', url: 'https://www.youtube.com/watch?v=hQAHSlTtcmY', type: 'youtube' },
+        { name: 'React Todo App Tutorial', url: 'https://www.youtube.com/watch?v=hQAHSlTtcmY', type: 'youtube' },
         { name: 'Full Stack Todo App', url: 'https://www.youtube.com/watch?v=MnpuK0k3vFg', type: 'youtube' },
-        { name: 'Task App with Authentication', url: 'https://www.youtube.com/watch?v=9Vmwsg7yaDk', type: 'youtube' }
+        { name: 'Task Manager with Authentication', url: 'https://www.youtube.com/watch?v=9Vmwsg7yaDk', type: 'youtube' }
       ]
     },
     'E-commerce Platform': {
@@ -422,8 +420,8 @@ export const LEARNING_RESOURCES = {
       ],
       video: [
         { name: 'Full Stack E-commerce', url: 'https://www.youtube.com/watch?v=1aP4A1vO_Zs', type: 'youtube' },
-        { name: 'E-commerce with React and Node', url: 'https://www.youtube.com/watch?v=377AQ0y6LPA', type: 'youtube' },
-        { name: 'Next.js E-commerce Tutorial', url: 'https://www.youtube.com/watch?v=4mOkFXyxfsU', type: 'youtube' }
+        { name: 'E-commerce with React', url: 'https://www.youtube.com/watch?v=377AQ0y6LPA', type: 'youtube' },
+        { name: 'Next.js E-commerce', url: 'https://www.youtube.com/watch?v=4mOkFXyxfsU', type: 'youtube' }
       ]
     },
     'Data Visualization Dashboard': {
@@ -444,8 +442,8 @@ export const LEARNING_RESOURCES = {
       ],
       video: [
         { name: 'React Native App Tutorial', url: 'https://www.youtube.com/watch?v=ur6I5m2nTvk', type: 'youtube' },
-        { name: 'Flutter Complete App', url: 'https://www.youtube.com/watch?v=1ukSR1GRtMU', type: 'youtube' },
-        { name: 'Mobile App UI Design', url: 'https://www.youtube.com/watch?v=JL3QW6CkdMw', type: 'youtube' }
+        { name: 'Flutter Complete Course', url: 'https://www.youtube.com/watch?v=1ukSR1GRtMU', type: 'youtube' },
+        { name: 'Mobile App UI Design', url: 'https://www.youtube.com/watch?v=VPvVD8t02Z8', type: 'youtube' }
       ]
     },
     'API Integration Project': {
