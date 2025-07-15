@@ -306,9 +306,14 @@ lyratech-platform/
 
 #### Resource Classification
 - **Technical Skills**: Frontend, backend, database, DevOps
-- **Behavioral Skills**: Leadership, communication, teamwork
+- **Behavioral Skills**: Leadership, communication, teamwork (TED talks and educational content)
 - **Practical Projects**: End-to-end project building guide
 - **Additional Resources**: Book recommendations, interview preparation
+
+#### Quality Assurance
+- All video links verified for reliability and stability
+- TED talks and authoritative educational sources prioritized
+- Regular content updates to ensure accessibility
 
 ## Database Architecture
 
@@ -584,7 +589,14 @@ For support and consultation:
 
 ## Update Log
 
-### v0.1.0 (Current)
+### v0.1.1 (Latest)
+- 🔧 Fixed day streak calculation logic to use actual login dates instead of module completion times
+- 📹 Updated all behavioral module video links with reliable TED talks and educational content
+- 🎯 Enhanced Achievement model with proper login date tracking for accurate streak calculation
+- 🔗 Replaced potentially broken YouTube links with stable educational resources from authoritative sources
+- ✨ Improved learning resource quality and accessibility
+
+### v0.1.0
 - ✅ Complete user authentication system
 - ✅ Personalized learning paths (NextGen Stars & Shining Galaxy)
 - ✅ Comprehensive resource center (200+ video tutorials)
