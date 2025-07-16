@@ -6,7 +6,10 @@ A comprehensive learning platform designed for women in tech, built with Next.js
 
 LyraTech's name originates from the constellation Lyra, which contains Vega - one of the brightest stars in the night sky. In ancient mythology, Lyra represents Orpheus's harp, whose melodies could move mountains, fill seas, and calm storms.
 
-Just as Vega was once the North Star and will become the North Star again in the future, LyraTech believes that women's leadership positions in the tech field will continuously rotate and shine. We are committed to being the guiding star for women's tech career navigation, allowing every woman to shine brightly in the tech galaxy.
+**Just as Vega was once the North Star and will become the North Star again in the future, LyraTech believes that women's leadership positions in the tech field will continuously rotate and shine. We are committed to being the guiding star for women's tech career navigation, allowing every woman to shine brightly in the tech galaxy.**
+<img width="933" height="713" alt="截屏2025-07-16 20 54 12" src="https://github.com/user-attachments/assets/d8b969f5-4c1e-458e-abfa-a63ad0cc257f" />
+![reset](https://github.com/user-attachments/assets/9b928d8b-bce2-4f12-8928-c45ccff98300)
+
 
 ## Core Features
 
@@ -15,41 +18,50 @@ Just as Vega was once the North Star and will become the North Star again in the
 - **Shining Galaxy**: Leadership and management capability development for mid to senior-level professionals
 - 20 technical skill modules, 15 behavioral interview modules, 10 practical projects
 - Intelligent progress tracking and level assessment system
+<img width="1196" height="650" alt="截屏2025-07-16 21 01 40" src="https://github.com/user-attachments/assets/fc30718d-75a1-447c-bb97-09748de33b34" />
+
 
 ### 📚 Comprehensive Resource Center
 - 200+ curated video tutorials covering frontend, backend, database, and other technical areas
 - Behavioral skills training resources (leadership, communication, teamwork, etc.)
 - Practical project guidance and portfolio building
 - Expandable/collapsible resource browsing experience
+<img width="1318" height="611" alt="截屏2025-07-16 21 02 52" src="https://github.com/user-attachments/assets/f55baadd-ed64-4158-aaaf-89176bade3a5" />
 
 ### 💬 Community Blog Platform
 - User-created and shared technical blogs
 - Like, comment, and community interaction features
 - Career stage identification (NextGen Stars / Shining Galaxy)
 - Real-time content publishing and deletion management
+<img width="1274" height="496" alt="截屏2025-07-16 21 03 26" src="https://github.com/user-attachments/assets/3bb412ee-8e25-4577-90e1-22bcf027c1e4" />
 
 ### 📅 Smart Calendar Management
 - Multi-type event support (learning, work, personal, deadlines, etc.)
 - Recurring events and reminder system
 - Priority management and color coding
 - Integration with learning path progress scheduling
+<img width="1270" height="736" alt="截屏2025-07-16 21 03 46" src="https://github.com/user-attachments/assets/a1277426-9437-47fa-bc85-6e7a2dfff7af" />
 
 ### 🏆 Achievement Tracking System
 - Learning progress visualization and milestone badges
 - Level progression system (Beginner → Intermediate → Advanced → Expert)
 - Personalized goal setting and tracking
 - Community achievement sharing
+<img width="1297" height="756" alt="截屏2025-07-16 21 04 36" src="https://github.com/user-attachments/assets/89b783c7-8cad-40b0-800a-80247a73240c" />
 
 ### 🎪 Events & Activities
 - Upcoming learning events and networking activities
 - Community event suggestions and participation
 - Contact email: lyratech.platform@gmail.com
+<img width="1275" height="743" alt="截屏2025-07-16 21 05 05" src="https://github.com/user-attachments/assets/795ee7c6-fd41-4595-bff5-4f10ce4a0c72" />
 
 ### 🔐 Complete User System
 - Secure user registration and login system
 - Personal profile management and avatar settings
 - Career stage selection and progress tracking
 - Complete footer link system (About Us, Contact Us, Terms of Service, Privacy Policy)
+- ![account detail](https://github.com/user-attachments/assets/078eaafb-b6df-4adf-85cc-af4f3cbb8af1)
+
 
 ## Tech Stack
 
