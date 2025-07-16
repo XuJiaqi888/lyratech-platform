@@ -1,6 +1,7 @@
 # LyraTech Platform
 
 A comprehensive learning platform designed for women in tech, built with Next.js, TypeScript, and MongoDB. LyraTech empowers women's career development in the technology field through personalized learning paths, blog community, event management, and achievement tracking systems.
+<img width="1421" height="661" alt="截屏2025-07-16 21 38 19" src="https://github.com/user-attachments/assets/aab605a3-c513-4322-8176-c804e09c2eff" />
 
 ## Platform Naming Story
 
@@ -8,7 +9,7 @@ LyraTech's name originates from the constellation Lyra, which contains Vega - on
 
 **Just as Vega was once the North Star and will become the North Star again in the future, LyraTech believes that women's leadership positions in the tech field will continuously rotate and shine. We are committed to being the guiding star for women's tech career navigation, allowing every woman to shine brightly in the tech galaxy.**
 <img width="933" height="713" alt="截屏2025-07-16 20 54 12" src="https://github.com/user-attachments/assets/d8b969f5-4c1e-458e-abfa-a63ad0cc257f" />
-![reset](https://github.com/user-attachments/assets/9b928d8b-bce2-4f12-8928-c45ccff98300)
+
 
 
 ## Core Features
@@ -61,6 +62,7 @@ LyraTech's name originates from the constellation Lyra, which contains Vega - on
 - Career stage selection and progress tracking
 - Complete footer link system (About Us, Contact Us, Terms of Service, Privacy Policy)
 - ![account detail](https://github.com/user-attachments/assets/078eaafb-b6df-4adf-85cc-af4f3cbb8af1)
+- ![reset](https://github.com/user-attachments/assets/9b928d8b-bce2-4f12-8928-c45ccff98300)
 
 
 ## Tech Stack
